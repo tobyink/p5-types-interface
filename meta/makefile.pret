@@ -12,6 +12,7 @@
 	:test-requirement       [ :on "Test::TypeTiny"^^:CpanId ];
 	:test-requirement       [ :on "Role::Tiny 1.000000"^^:CpanId ];
 	:test-requirement       [ :on "Class::Tiny"^^:CpanId ];
+	:test-suggestion        [ :on "UNIVERSAL::DOES"^^:CpanId ];
 	:develop-recommendation [ :on "Dist::Inkt 0.001"^^:CpanId ];
 	.
 

@@ -32,6 +32,12 @@ use Local::Liar;
 use Local::NonImpl;
 use Local::PublicImpl;
 
+BEGIN {
+	if ($] < 5.010000) {
+		require UNIVERSAL::DOES;
+	}
+};
+
 use Types::Interface -types;
 
 my $class    = ClassDoesInterface['Local::Role'];
