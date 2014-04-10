@@ -5,7 +5,7 @@ use warnings;
 package Types::Interface;
 
 our $AUTHORITY = 'cpan:TOBYINK';
-our $VERSION   = '0.001';
+our $VERSION   = '0.002';
 
 use Carp qw( croak );
 use Role::Inspector qw( get_role_info );

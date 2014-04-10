@@ -4,3 +4,8 @@
 	issued  2014-04-09;
 	label   "Initial release".
 
+`Types-Interface 0.002 cpan:TOBYINK`
+	issued  2014-04-10;
+	changeset [
+		item "Load UNIVERSAL::DOES in test cases for Perl < 5.010."^^Tests;
+	].
